@@ -13,5 +13,12 @@
 
 <a href="https://drive.google.com/uc?export=view&id=1LCW7MpU_oEI_DcCchluVNyIedY8OWVMr"><img src="https://drive.google.com/uc?export=view&id=1LCW7MpU_oEI_DcCchluVNyIedY8OWVMr" style="width: 500px; max-width: 100%; height: auto" title="Click for the larger version." /></a>
 
-2) Обучили на собранном датасете две модели Yolov5 и Yolov7. Произвели сравнение по метрикам результатов детекций, чтобы выяснить какая из моделей лучше подходит для данной задачи
-4) В код модели добавили автоматическое распознавание текста при детекции номера, реализованное через easyocr
+2) Обучили на собранном датасете две модели Yolov5 и [Yolov7](ALPR.ipynb). Произвели сравнение по метрикам результатов детекций, чтобы выяснить какая из моделей лучше подходит для данной задачи
+
+**Метрики тестового набора для Yolo7:**
+<p align="left"><img src="./helpers/yolo7_test.png"\></p>
+
+**Метрики тестового набора для Yolo5:**
+<p align="left"><img src="./helpers/yolo5_test.png"\></p>
+
+3) В код модели добавили автоматическое распознавание текста при детекции номера, реализованное через easyocr
