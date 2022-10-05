@@ -29,7 +29,7 @@
 <p align="left"><img src="./helpers/yolov5m_val.png"\></p>
 
 **Метрики скорости тестового набора для Yolo7:**
-<p align="left"><img src="./helpers/yolo7_test.png"\></p>
+<p align="left"><img src="./helpers/yolo7_test_s.png"\></p>
 
 **Метрики скорости тестового набора для Yolo5:**
 <p align="left"><img src="./helpers/yolov5m_test.png"\></p>
