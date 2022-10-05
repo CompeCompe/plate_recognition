@@ -9,6 +9,7 @@
 * скриншоты с камер видеонаблюдения
 * скаченные картинки с интернета, для обогащения класса **грузовая машина**
 * скаченный готовый датасет из [kaggle](https://www.kaggle.com/datasets/andrewmvd/car-plate-detection)
+
 Произвели разметку классов для Yolo моделей при помощи labelImg.
 
 <a href="https://drive.google.com/uc?export=view&id=1LCW7MpU_oEI_DcCchluVNyIedY8OWVMr"><img src="https://drive.google.com/uc?export=view&id=1LCW7MpU_oEI_DcCchluVNyIedY8OWVMr" style="width: 500px; max-width: 100%; height: auto" title="Click for the larger version." /></a>
