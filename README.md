@@ -17,21 +17,25 @@
 2) Обучили на собранном [датасете](https://www.kaggle.com/datasets/kirillpribludenko/number-plates-50-russain-50-others) две модели [Yolov5m](yolov5m.ipynb) и [Yolov7](ALPR.ipynb). 
 
 Лучшие веса для данных моделей:
-[Yolo5m](https://drive.google.com/file/d/1htNcnFONfzpevnFL5iw3OpycEK3tG71m/view?usp=sharing)
-[Yolo7](https://drive.google.com/file/d/1e5QTOn7kLk5ekQHyR8343c90Hhw3FAEy/view?usp=sharing)
+[Yolov5m](https://drive.google.com/file/d/1htNcnFONfzpevnFL5iw3OpycEK3tG71m/view?usp=sharing)
+[Yolov7](https://drive.google.com/file/d/1e5QTOn7kLk5ekQHyR8343c90Hhw3FAEy/view?usp=sharing)
 
-Произвели сравнение по метрикам результатов детекций, чтобы выяснить какая из моделей лучше подходит для данной задачи
+Произвели сравнение по метрикам Precision, Recall и mAP результатов детекций, чтобы выяснить какая из моделей лучше подходит для данной задачи
 
-**Метрики качества валидационного набора для Yolo7:**
+**Метрики качества валидационного набора для Yolov7:**
 <p align="left"><img src="./helpers/yolo7_val.png"\></p>
 
-**Метрики качества валидационного набора для Yolo5:**
+**Метрики качества валидационного набора для Yolov5m:**
 <p align="left"><img src="./helpers/yolov5m_val1.png"\></p>
 
-**Метрики скорости тестового набора для Yolo7 (дополнительно был поставлен флаг --v5-metric):**
+**Метрики скорости тестового набора для Yolov7 (дополнительно был поставлен флаг --v5-metric):**
 <p align="left"><img src="./helpers/yolo7_test_s.png"\></p>
 
-**Метрики скорости тестового набора для Yolo5:**
+**Метрики скорости тестового набора для Yolov5m:**
 <p align="left"><img src="./helpers/yolov5m_test.png"\></p>
+
+На основани полученных результатов была выбрана модель Yolov7.
+
+Замеры производились с помощью графической карты Tesla T4
 
 3) В код модели добавили автоматическое распознавание текста при детекции номера, реализованное через easyocr
