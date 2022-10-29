@@ -16,6 +16,8 @@
 
 <a href="https://drive.google.com/uc?export=view&id=1LCW7MpU_oEI_DcCchluVNyIedY8OWVMr"><img src="https://drive.google.com/uc?export=view&id=1LCW7MpU_oEI_DcCchluVNyIedY8OWVMr" style="width: 500px; max-width: 100%; height: auto" title="Click for the larger version." /></a>
 
+<a href="./helpers/labelimg.png"><img src="./helpers/labelimg.png" style="width: 500px; max-width: 100%; height: auto" title="Click for the larger version." /></a>
+
 2) Обучили на собранном [датасете](https://www.kaggle.com/datasets/kirillpribludenko/number-plates-50-russain-50-others) две модели [Yolov5m](yolov5m.ipynb) и [Yolov7](ALPR.ipynb). 
 
 Лучшие веса для данных моделей:
