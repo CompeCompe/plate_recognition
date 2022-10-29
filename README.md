@@ -50,7 +50,7 @@
 <p align="left"><img src="./helpers/yolo7_detect_total.png"\></p>
 
 **Метрики общей скорости для Yolov5m:**
-<p align="left"><img src="./helpers/yolov5m_test_total.png"\></p>
+<p align="left"><img src="./helpers/yolov5m_total.png"\></p>
 
 Как видно, распознавание номера сильно тормозит общее решение. Есть смысл задуматься об оптимизации данного момента.
 
